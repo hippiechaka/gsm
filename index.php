@@ -12,7 +12,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php
-	$titulo 		= 'Fenix';
+	$titulo 		= 'GSM profesionales del Derecho';
 	$descripcion 	= 'Descripción..';
 	$keywords 		= 'Keywords..';
 	$fb_img 		= '[ruta-absoluta-imagen-para-compartir-1200x630]';
@@ -91,8 +91,6 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyDMSqJvrVIY39f7QHIwrFaaiIxgRgR6Bso"></script>
-	<script type="text/javascript" src="js/mapa.js"></script>
 	<!-- scrollmagic -->
     <script type="text/javascript" src="js/lib/greensock/TweenMax.min.js"></script>
     <script src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
