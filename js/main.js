@@ -55,46 +55,68 @@ $(function(){
     $('.parallax-window').parallax();
     $('.parallax-window-min').parallax();
   }
-  if ($("#googleMap").length>0){
-    var myCenter=new google.maps.LatLng(20.706083,-103.371875);
-
-    function initialize()
-    {
-    var mapProp = {
-      center:myCenter,
-      zoom:18,
-      mapTypeId:google.maps.MapTypeId.HYBRID,
-      scrollwheel: false 
-      };
-
-    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
-  }
-  if ($("#grid-gallery").length>0){
-      new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-
-
-      $("#grid-gallery").lightGallery({selector:'.imglg',download:false,thumbnail:false,appendSubHtmlTo:''}); 
-   
-  }
 });
 
 
-/*
-  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
-  new ScrollMagic.Scene({triggerElement: ".parallaxParent"})
-    .setTween(".parallaxParent > div.bg-parallax", {y: "80%", ease: Linear.easeNone})
-    // .addIndicators()
-    .addTo(controller);
+/* TEXTO 1 */
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#penal", 1, {right: -1280}, {right: 0, ease: Power4.easeOut}, 1.6180);
+var scene = new ScrollMagic.Scene({triggerElement: "#img-penal"})
+        .setTween(tween)
+        .addTo(controller);
+        //setTimeout(function(){ controller.destroy(reset);controller = null;scene = null;tween = null; }, 1000);
+        
+/* TEXTO 2 */
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#civil", 1, {left: -1280}, {left: 0, ease: Power4.easeOut}, 1.6180);
+var scene = new ScrollMagic.Scene({triggerElement: "#img-civil"})
+        .setTween(tween)
+        .addTo(controller);
+        //setTimeout(function(){ controller.destroy(reset);controller = null;scene = null;tween = null; }, 1000);
 
-  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
-  new ScrollMagic.Scene({triggerElement: ".parallaxParent2"})
-    .setTween(".parallaxParent2 > div.bg-parallax2", {y: "40%", ease: Linear.easeNone})
-    // .addIndicators()
-    .addTo(controller);
-*/
+/* TEXTO 3 */
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#corporativo", 1, {left: -1280}, {left: 0, ease: Power4.easeOut}, 1.6180);
+var scene = new ScrollMagic.Scene({triggerElement: "#img-corporativo"})
+        .setTween(tween)
+        .addTo(controller);
+        //setTimeout(function(){ controller.destroy(reset);controller = null;scene = null;tween = null; }, 1000);
+/* TEXTO 4 */
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#familiar", 1, {right: -1280}, {right: 0, ease: Power4.easeOut}, 1.6180);
+var scene = new ScrollMagic.Scene({triggerElement: "#img-familiar"})
+        .setTween(tween)
+        .addTo(controller);
+        //setTimeout(function(){ controller.destroy(reset);controller = null;scene = null;tween = null; }, 1000);
+/* TEXTO 5 */
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#sucesiones", 1, {right: -1280}, {right: 0, ease: Power4.easeOut}, 1.6180);
+var scene = new ScrollMagic.Scene({triggerElement: "#img-sucesiones"})
+        .setTween(tween)
+        .addTo(controller);
+        //setTimeout(function(){ controller.destroy(reset);controller = null;scene = null;tween = null; }, 1000);
+/* TEXTO 6 */
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#mercantil", 1, {left: -1280}, {left: 0, ease: Power4.easeOut}, 1.6180);
+var scene = new ScrollMagic.Scene({triggerElement: "#img-mercantil"})
+        .setTween(tween)
+        .addTo(controller);
+        //setTimeout(function(){ controller.destroy(reset);controller = null;scene = null;tween = null; }, 1000);
+/* TEXTO 7 */
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#laboral", 1, {left: -1280}, {left: 0, ease: Power4.easeOut}, 1.6180);
+var scene = new ScrollMagic.Scene({triggerElement: "#img-laboral"})
+        .setTween(tween)
+        .addTo(controller);
+        //setTimeout(function(){ controller.destroy(reset);controller = null;scene = null;tween = null; }, 1000);
+/* TEXTO 8 */
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#amparo", 1, {right: -1280}, {right: 0, ease: Power4.easeOut}, 1.6180);
+var scene = new ScrollMagic.Scene({triggerElement: "#img-amparo"})
+        .setTween(tween)
+        .addTo(controller);
+        //setTimeout(function(){ controller.destroy(reset);controller = null;scene = null;tween = null; }, 1000);
+
 
 });
 

@@ -292,11 +292,31 @@ hr.gradient{
     padding:0;
     display:block;
 }
+#main-img{
+    display:block;
+    width:100%;
+    height:auto;
+    min-height:100vh;
+    position:relative;
+}
+#main-img #sidebar-initial{
+  position:absolute;
+  width:100%;
+  height: auto;
+  text-align:center;
+  top:10vw;
+  left:0;
+  z-index:3;
+}
 #logo-big{
   margin:10px auto;
   display:block;
 }
-
+#servicios{}
+#servicios .col-md-6{min-height:600px;padding-top:60px;overflow:hidden;}
+.imgServicio{position:absolute;}
+.img-left{right:50%;}
+.img-right{left:50%;}
 
 /* 
 ::::::::::::::::::::::::::::::::::::::::::::::::::

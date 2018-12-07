@@ -11,7 +11,21 @@ section#home{
     min-height: 75vh;
     background: transparent;
 }
-.float-content{}
+.float-content{
+  position:relative;
+  width:100%;
+  height:75vh;
+  display:block;
+  padding-top:60px;
+}
+.float-content .container{position:relative;}
+.float-content.float-content .panel{
+  width: 390px;
+  padding:30px 20px 20px;
+  border-radius:0;
+  position:absolute;
+}
+
 .panel#penal{background-color:rgba(49,40,28,0.56);color:#fff;}
 .panel#civil{background-color:rgba(48,173,169,0.56);color:#fff;}
 .panel#corporativo{background-color:rgba(255,255,255,0.56);color:#000;}
