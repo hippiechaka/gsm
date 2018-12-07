@@ -292,33 +292,11 @@ hr.gradient{
     padding:0;
     display:block;
 }
-
-
-
-section#home{
-  padding:0;
-  position:relative;
-}
-#main-img{
-    display:block;
-    width:100%;
-    height:auto;
-    min-height:100vh;
-    position:relative;
-}
-#main-img #sidebar-initial{
-  position:absolute;
-  width:100%;
-  height: auto;
-  text-align:center;
-  top:10vw;
-  left:0;
-  z-index:3;
-}
 #logo-big{
   margin:10px auto;
   display:block;
 }
+
 
 /* 
 ::::::::::::::::::::::::::::::::::::::::::::::::::

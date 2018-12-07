@@ -97,6 +97,7 @@
     <script type="text/javascript" src="js/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
     <!-- <script type="text/javascript" src="js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script> -->
     <script src="js/scrollreveal.min.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/main.js"></script>
 
 

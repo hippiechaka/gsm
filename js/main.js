@@ -48,7 +48,53 @@ $("#main-slideshow").owlCarousel({
       }
   }); 
 
+/* Parallax */
 
+$(function(){
+  if ($(".parallax-window").length>0){
+    $('.parallax-window').parallax();
+    $('.parallax-window-min').parallax();
+  }
+  if ($("#googleMap").length>0){
+    var myCenter=new google.maps.LatLng(20.706083,-103.371875);
+
+    function initialize()
+    {
+    var mapProp = {
+      center:myCenter,
+      zoom:18,
+      mapTypeId:google.maps.MapTypeId.HYBRID,
+      scrollwheel: false 
+      };
+
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+  }
+  if ($("#grid-gallery").length>0){
+      new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+
+
+      $("#grid-gallery").lightGallery({selector:'.imglg',download:false,thumbnail:false,appendSubHtmlTo:''}); 
+   
+  }
+});
+
+
+/*
+  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+  new ScrollMagic.Scene({triggerElement: ".parallaxParent"})
+    .setTween(".parallaxParent > div.bg-parallax", {y: "80%", ease: Linear.easeNone})
+    // .addIndicators()
+    .addTo(controller);
+
+  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+  new ScrollMagic.Scene({triggerElement: ".parallaxParent2"})
+    .setTween(".parallaxParent2 > div.bg-parallax2", {y: "40%", ease: Linear.easeNone})
+    // .addIndicators()
+    .addTo(controller);
+*/
 
 });
 

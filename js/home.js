@@ -59,19 +59,7 @@ $("#quienes-somos").owlCarousel({
         // onResized: matchHeight1
   });
 
-/* Parallax */
 
-  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
-  new ScrollMagic.Scene({triggerElement: ".parallaxParent"})
-    .setTween(".parallaxParent > div.bg-parallax", {y: "80%", ease: Linear.easeNone})
-    // .addIndicators()
-    .addTo(controller);
-
-  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
-  new ScrollMagic.Scene({triggerElement: ".parallaxParent2"})
-    .setTween(".parallaxParent2 > div.bg-parallax2", {y: "80%", ease: Linear.easeNone})
-    // .addIndicators()
-    .addTo(controller);
 
 
 
