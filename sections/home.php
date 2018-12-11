@@ -2,21 +2,21 @@
 
 <section class="container-fluid" id="home">
 	<h1 class="sr-only">GSM profesionales del Derecho</h1>
+	<h2 class="sr-only"><small>[@gsmderecho]</small></h2>
 	<div class="clearfix navbar-height"></div>
 
 	<div id="main-img">
 		<div id="sidebar-initial">
-			<h1 class="sr-only"></h1>
 			<img src="images/logo-big.png" alt="" class="animated fadeInUpBig" id="logo-big">
 		</div>
 		<div id="main-slideshow">
 		  <div class="item">
 		    <img src="images/slide1.jpg" alt="" class="visible-lg-block">
-		    <img src="http://via.placeholder.com/1200x800" alt="" class="hidden-lg">
+		    <img src="images/slide1-sm.jpg" alt="" class="hidden-lg">
 		  </div>
 		  <div class="item">
 		    <img src="images/slide2.jpg" alt="" class="visible-lg-block">
-		    <img src="http://via.placeholder.com/1200x800" alt="" class="hidden-lg">
+		    <img src="images/slide2-sm.jpg" alt="" class="hidden-lg">
 		  </div>
 		</div>
 	</div>
@@ -188,6 +188,32 @@
 					<a href="#contacto">+ info <i class="fas fa-angle-double-right"></i></a>
 				</div>
 			</div>
+		</div>
+	</div>
+
+	<!-- Contacto -->
+	<div class="section" id="contacto">
+		<div class="container">
+			<h3 class="titulo">Contáctanos</h3>
+			<h4 class="tag">Nosotros haremos valer tus derechos</h4>
+			<p class="phones"><a href="tel:3313514066">331 351 4066</a>  ó  <a href="tel:3323214455">332 321 4455</a></p>
+			<p class="mails">
+				<a href="mailto:contacto@gsmderecho.com" target="_blank">contacto<i class="fas fa-at"></i>gsmderecho.com</a><br>
+				<a href="mailto:lic.sergio.gutierrez.marquez@gsmderecho.com" target="_blank">lic.sergio.gutierrez.marquez<i class="fas fa-at"></i>gsmderecho.com</a><br>
+				<a href="mailto:lic.hector.peña.ruiz@gsmderecho.com" target="_blank">lic.hector.peña.ruiz<i class="fas fa-at"></i>gsmderecho.com</a>
+			</p>
+			<ul class="redes list-inline">
+				<li>
+					<a href="javascript:void(0);" target="_blank" class="redesIcon" id="facebookF" title="Síguenos en Facebook">
+						<i class="fab fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);" target="_blank" class="redesIcon" id="facebookF" title="Síguenos en Youtube">
+					<i class="fab fa-youtube-square"></i>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 
